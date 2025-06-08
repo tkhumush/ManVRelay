@@ -1,5 +1,3 @@
-/// <reference types="vite/client" />
-
 // NIP-07 window.nostr interface
 interface NostrEvent {
   id?: string;
@@ -29,3 +27,5 @@ declare global {
     nostr?: NostrSigner;
   }
 }
+
+export {};
